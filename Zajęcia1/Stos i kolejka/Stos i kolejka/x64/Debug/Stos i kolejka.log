@@ -1,0 +1,4 @@
+﻿  mian.cpp
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Stos i kolejka\mian.cpp(102,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Stos i kolejka\mian.cpp(478,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Stos i kolejka.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Stos i kolejka\x64\Debug\Stos i kolejka.exe

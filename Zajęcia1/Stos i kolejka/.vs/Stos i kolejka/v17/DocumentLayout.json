@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kryst\\OneDrive\\Pulpit\\GitHub\\Algorytmy_i_struktury_danych_rok2\\Zaj\u0119cia1\\Stos i kolejka\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{984B2E07-F566-48B7-991B-ACC795129F54}|Stos i kolejka.vcxproj|C:\\Users\\kryst\\OneDrive\\Pulpit\\GitHub\\Algorytmy_i_struktury_danych_rok2\\Zaj\u0119cia1\\Stos i kolejka\\mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{984B2E07-F566-48B7-991B-ACC795129F54}|Stos i kolejka.vcxproj|solutionrelative:mian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mian.cpp",
+              "DocumentMoniker": "C:\\Users\\kryst\\OneDrive\\Pulpit\\GitHub\\Algorytmy_i_struktury_danych_rok2\\Zaj\u0119cia1\\Stos i kolejka\\mian.cpp",
+              "RelativeDocumentMoniker": "mian.cpp",
+              "ToolTip": "C:\\Users\\kryst\\OneDrive\\Pulpit\\GitHub\\Algorytmy_i_struktury_danych_rok2\\Zaj\u0119cia1\\Stos i kolejka\\mian.cpp",
+              "RelativeToolTip": "mian.cpp",
+              "ViewState": "AQIAAMQBAAAAAAAAAAAkwEUCAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T08:46:54.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

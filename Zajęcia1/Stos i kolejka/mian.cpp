@@ -174,7 +174,7 @@ public:
 	{
 		if (!isEmpty())
 		{
-			if (index <= topIndex)
+			if (index <= topIndex && index >=0 )
 			{
 				for (int i = topIndex - index; i < topIndex; i++)
 				{

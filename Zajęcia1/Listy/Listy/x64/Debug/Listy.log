@@ -1,3 +1,3 @@
 ﻿  mian.cpp
-C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Listy\mian.cpp(210,1): warning C4715: "List::ruling_in”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Listy\mian.cpp(197,1): warning C4715: "List::ruling_in”: niewszystkie ścieżki kodu zwracają wartość
   Listy.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia1\Listy\x64\Debug\Listy.exe

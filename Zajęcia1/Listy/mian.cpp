@@ -18,11 +18,6 @@ public:
 
 	President(string name, int start, int end, string party) : name(name), start(start), end(end), party(party), prev(nullptr), next(nullptr) {}
 	President(President *ptr) : name(ptr->name), start(ptr->start), end(ptr->end), party(ptr->party), prev(nullptr), next(nullptr) {}
-
-	int how_long()
-	{
-		return end - start;
-	}
 };
 
 class List
@@ -46,9 +41,8 @@ public:
 		{
 			newElement->prev = nullptr;
 			newElement->next = head;
-			if (head != nullptr) head->prev = newElement;
+			head->prev = newElement;
 			head = newElement;
-			if (tail == nullptr) tail = newElement;
 		}
 		size++;
 	}
@@ -80,9 +74,8 @@ public:
 		{
 			newElement->prev = tail;
 			newElement->next = nullptr;
-			if (tail != nullptr) tail->next = newElement;
+			tail->next = newElement;
 			tail = newElement;
-			if (head == nullptr) head = newElement;
 		}
 		size++;
 	}
@@ -98,9 +91,8 @@ public:
 		{
 			president->prev = tail;
 			president->next = nullptr;
-			if (tail != nullptr) tail->next = president;
+			tail->next = president;
 			tail = president;
-			if (head == nullptr) head = president;
 		}
 		size++;
 	}
@@ -129,19 +121,14 @@ public:
 		}
 	}
 
-	int getSize()
+	President front()
 	{
-		return size;
+		return head;
 	}
 
-	string front()
+	President back()
 	{
-		return head->name;
-	}
-
-	string back()
-	{
-		return tail->name;
+		return tail;
 	}
 
 	bool isEmpty()
@@ -243,5 +230,6 @@ int main()
 	cout << "\n\nTASK 3: \n";
 	President president1 = presidents.ruling_in(1805);
 	cout << president1.name;
+
 	return 0;
 }

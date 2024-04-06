@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-#include <vector>
 
 using namespace std;
 
@@ -96,11 +95,10 @@ public:
 
 };
 
-Stack StackL(vector<int> sequence) // task1
+Stack StackL(int sequence[], int size) // task1
 {
 	Stack stack;
-	int seqSize = sequence.size();
-	for (int i = 0; i < seqSize; i++)
+	for (int i = 0; i < size; i++)
 	{
 		if (sequence[i] % 5 == 0)
 		{
@@ -476,21 +474,21 @@ int main()
 	cout << "THERE IS A STANDARD FOR EACH DISPLAYED STACK: LEFT - TOP, RIGHT - BOTTOM\n";
 	cout << "TASK 1:\n";
 	srand(time(NULL));
-	int m = 30, i = 5;
+	const int m = 30, i = 5;
 
-	vector<int> sequence;
+	int table[m];
 	for (int j = 0; j < m; j++)
 	{
 		int randNumber = (rand() % 30) + 1;
-		sequence.push_back(randNumber);
+		table[j] = randNumber;
 	}
 
-	Stack stack1 = StackL(sequence);
+	Stack stack1 = StackL(table, m);
 
 	cout << "stack1: ";
 	stack1.display();
 
-	cout << "\n\nTASK 2:\n";
+	cout << "\n\n\nTASK 2:\n";
 	cout << "a)\n"; //task 2.a
 	Stack stack2;
 	Stack stackTemp;
@@ -531,7 +529,7 @@ int main()
 	cout << "\nstack3 after action: ";
 	stack3.display();
 
-	cout << "\n\nTASK 3:\n";
+	cout << "\n\n\nTASK 3:\n";
 	TabStack stack4;
 	stack4.push(1);
 	stack4.push(2);
@@ -549,7 +547,7 @@ int main()
 	cout << "\nstack4 after action: ";
 	stack4.display();
 
-	cout << "\n\nTHERE IS A STANDARD FOR EACH DISPLAYED LIST: LEFT - FRONT, RIGHT - BACK\n";
+	cout << "\n\n\nTHERE IS A STANDARD FOR EACH DISPLAYED LIST: LEFT - FRONT, RIGHT - BACK\n";
 	cout << "TASK 4:";
 	List list1, list2;
 
@@ -578,7 +576,7 @@ int main()
 	cout << "\nlist2 after action: ";
 	list2.display();
 
-	cout << "\n\nTHERE IS A STANDARD FOR EACH DISPLAYED QUEUE: LEFT - FIRST TO OUT, RIGHT - ADDED LATEST\n";
+	cout << "\n\n\nTHERE IS A STANDARD FOR EACH DISPLAYED QUEUE: LEFT - FIRST TO OUT, RIGHT - ADDED LATEST\n";
 	cout << "TASK 5:";
 	Queue queue1;
 

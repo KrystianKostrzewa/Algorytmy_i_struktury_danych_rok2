@@ -82,8 +82,8 @@ public:
 		StackElement *prev, *cur, *succ;
 		prev = topElement;
 		cur = prev->next_ptr;
-		prev->next_ptr = NULL;
-		while (cur != NULL)
+		prev->next_ptr = nullptr;
+		while (cur != nullptr)
 		{
 			succ = cur->next_ptr;
 			cur->next_ptr = prev;
@@ -95,12 +95,12 @@ public:
 
 };
 
-Stack StackL(int sequence[], int size) // task1
+Stack StackL(int sequence[], int size, int devider) // task1
 {
 	Stack stack;
 	for (int i = 0; i < size; i++)
 	{
-		if (sequence[i] % 5 == 0)
+		if (sequence[i] % devider == 0)
 		{
 			stack.push(sequence[i]);
 		}
@@ -483,7 +483,7 @@ int main()
 		table[j] = randNumber;
 	}
 
-	Stack stack1 = StackL(table, m);
+	Stack stack1 = StackL(table, m, i);
 
 	cout << "stack1: ";
 	stack1.display();

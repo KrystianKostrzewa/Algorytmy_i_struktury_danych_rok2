@@ -11,21 +11,10 @@ public:
     BSTNode* Parent;
 
     static BSTNode* Insert(BSTNode* node, int key);
-    static void printTreePreOrder(BSTNode* node);
-    static void printTreePostOrder(BSTNode* node);
-    static void printTreeInOrder(BSTNode* node);
-
-    static BSTNode* min(BSTNode* root);
-    static BSTNode* max(BSTNode* root);
-
-    static BSTNode* inOrderSuccessor(BSTNode* n);
-    static BSTNode* inOrderPredeccessor(BSTNode* n);
-
 };
 
 BSTNode* BSTNode::Insert(BSTNode* node, int key)
 {
-
     if (node == NULL)
     {
         node = new BSTNode;
@@ -43,26 +32,24 @@ BSTNode* BSTNode::Insert(BSTNode* node, int key)
         node->Left = Insert(node->Left, key);
         node->Left->Parent = node;
     }
-
     return node;
-
 }
 
-static void printTreePreOrder(BSTNode* node) // task 1a
+void printTreePreOrder(BSTNode* node) // task 1a
 {
     cout << node->key << " ";
     if (node->Left != NULL)printTreePreOrder(node->Left);
     if (node->Right != NULL) printTreePreOrder(node->Right);
 }
 
-static void printTreePostOrder(BSTNode* node)//task 1b
+void printTreePostOrder(BSTNode* node)//task 1b
 {
     if (node->Left != NULL)printTreePostOrder(node->Left);
     if (node->Right != NULL) printTreePostOrder(node->Right);
     cout << node->key << " ";
 }
 
-static void printTreeInOrder(BSTNode* node) // task 1c
+void printTreeInOrder(BSTNode* node) // task 1c
 {
     if (node->Left != NULL)printTreeInOrder(node->Left);
     cout << node->key << " ";
@@ -81,7 +68,7 @@ static BSTNode* max(BSTNode* root) //task 2b
     return root;
 }
 
-int height(BSTNode* root)
+int height(BSTNode* root) //task 3
 {
     if (root == NULL) return 0;
     else
@@ -94,7 +81,7 @@ int height(BSTNode* root)
     }
 }
 
-BSTNode* successor(BSTNode* node)
+BSTNode* successor(BSTNode* node) //task 4a
 {
     if (node->Right != NULL) return min(node->Right);
     else
@@ -109,7 +96,7 @@ BSTNode* successor(BSTNode* node)
     }
 }
 
-BSTNode* predecessor(BSTNode* node)
+BSTNode* predecessor(BSTNode* node) //task 4b
 {
     if (node->Left != NULL) return max(node->Left);
     else
@@ -124,7 +111,8 @@ BSTNode* predecessor(BSTNode* node)
     }
 }
 
-BSTNode* Delete(BSTNode* Tree, BSTNode* DeleteNode) {
+BSTNode* Delete(BSTNode* Tree, BSTNode* DeleteNode) //task 5
+{
     BSTNode* y;
     if (DeleteNode->Left == nullptr || DeleteNode->Right == nullptr)
         y = DeleteNode;
@@ -154,8 +142,6 @@ int main()
 {
 
     BSTNode* root = NULL;
-    BSTNode* min_node = NULL;
-    BSTNode* succ_node = NULL;
     root = BSTNode::Insert(root, 15);
     root = BSTNode::Insert(root, 10);
     root = BSTNode::Insert(root, 20);

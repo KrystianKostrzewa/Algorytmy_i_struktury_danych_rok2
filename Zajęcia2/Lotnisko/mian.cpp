@@ -221,7 +221,7 @@ void delete_expired_events(BSTNode* node, BSTNode* tree)
 
 int main()
 {
-	BSTNode* database = new BSTNode(-3);
+	BSTNode* database = new BSTNode(-2);
 	BSTNode* databaseTop = new BSTNode(1002);
 
 	database->Insert(databaseTop);

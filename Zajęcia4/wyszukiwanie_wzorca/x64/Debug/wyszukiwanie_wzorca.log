@@ -1,0 +1,17 @@
+﻿  mian.cpp
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(22,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(23,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(40,23): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(41,20): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(80,14): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(132,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(133,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(168,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(169,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(197,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(198,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(199,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(215,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(216,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\wyszukiwanie_wzorca\mian.cpp(217,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  wyszukiwanie_wzorca.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia4\x64\Debug\wyszukiwanie_wzorca.exe

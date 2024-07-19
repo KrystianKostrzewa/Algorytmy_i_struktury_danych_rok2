@@ -1,0 +1,3 @@
+﻿  mian.cpp
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\proste sortowania\mian.cpp(112,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  proste sortowania.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\proste sortowania\x64\Debug\proste sortowania.exe

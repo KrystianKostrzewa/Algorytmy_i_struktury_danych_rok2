@@ -1,0 +1,6 @@
+﻿  mian.cpp
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\złożone algorytmy sortowania\mian.cpp(90,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\złożone algorytmy sortowania\mian.cpp(109,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\złożone algorytmy sortowania\mian.cpp(193,11): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\złożone algorytmy sortowania\mian.cpp(233,15): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  złożone algorytmy sortowania.vcxproj -> C:\Users\kryst\OneDrive\Pulpit\GitHub\Algorytmy_i_struktury_danych_rok2\Zajęcia3\złożone algorytmy sortowania\x64\Debug\złożone algorytmy sortowania.exe
